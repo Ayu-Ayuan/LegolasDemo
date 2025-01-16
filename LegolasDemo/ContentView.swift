@@ -22,3 +22,11 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+
+
+
+
+
+
+
+// complicated editor
