@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189E06E12D38A9D200AF0370 /* LegolasDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E06E02D38A9D200AF0370 /* LegolasDemoApp.swift */; };
+		189E06E32D38A9D200AF0370 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E06E22D38A9D200AF0370 /* ContentView.swift */; };
+		189E06E52D38A9D300AF0370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E06E42D38A9D300AF0370 /* Assets.xcassets */; };
+		189E06E82D38A9D300AF0370 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189E06E72D38A9D300AF0370 /* Preview Assets.xcassets */; };
+		189E06F22D38A9D400AF0370 /* LegolasDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E06F12D38A9D400AF0370 /* LegolasDemoTests.swift */; };
+		189E06FC2D38A9D400AF0370 /* LegolasDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E06FB2D38A9D400AF0370 /* LegolasDemoUITests.swift */; };
+		189E06FE2D38A9D400AF0370 /* LegolasDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189E06FD2D38A9D400AF0370 /* LegolasDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189E06EE2D38A9D400AF0370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E06D52D38A9D200AF0370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E06DC2D38A9D200AF0370;
+			remoteInfo = LegolasDemo;
+		};
+		189E06F82D38A9D400AF0370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189E06D52D38A9D200AF0370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189E06DC2D38A9D200AF0370;
+			remoteInfo = LegolasDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189E06DD2D38A9D200AF0370 /* LegolasDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegolasDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E06E02D38A9D200AF0370 /* LegolasDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegolasDemoApp.swift; sourceTree = "<group>"; };
+		189E06E22D38A9D200AF0370 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		189E06E42D38A9D300AF0370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189E06E72D38A9D300AF0370 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		189E06ED2D38A9D400AF0370 /* LegolasDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegolasDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E06F12D38A9D400AF0370 /* LegolasDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegolasDemoTests.swift; sourceTree = "<group>"; };
+		189E06F72D38A9D400AF0370 /* LegolasDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LegolasDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189E06FB2D38A9D400AF0370 /* LegolasDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegolasDemoUITests.swift; sourceTree = "<group>"; };
+		189E06FD2D38A9D400AF0370 /* LegolasDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegolasDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189E06DA2D38A9D200AF0370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06EA2D38A9D400AF0370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06F42D38A9D400AF0370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189E06D42D38A9D200AF0370 = {
+			isa = PBXGroup;
+			children = (
+				189E06DF2D38A9D200AF0370 /* LegolasDemo */,
+				189E06F02D38A9D400AF0370 /* LegolasDemoTests */,
+				189E06FA2D38A9D400AF0370 /* LegolasDemoUITests */,
+				189E06DE2D38A9D200AF0370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189E06DE2D38A9D200AF0370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189E06DD2D38A9D200AF0370 /* LegolasDemo.app */,
+				189E06ED2D38A9D400AF0370 /* LegolasDemoTests.xctest */,
+				189E06F72D38A9D400AF0370 /* LegolasDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189E06DF2D38A9D200AF0370 /* LegolasDemo */ = {
+			isa = PBXGroup;
+			children = (
+				189E06E02D38A9D200AF0370 /* LegolasDemoApp.swift */,
+				189E06E22D38A9D200AF0370 /* ContentView.swift */,
+				189E06E42D38A9D300AF0370 /* Assets.xcassets */,
+				189E06E62D38A9D300AF0370 /* Preview Content */,
+			);
+			path = LegolasDemo;
+			sourceTree = "<group>";
+		};
+		189E06E62D38A9D300AF0370 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				189E06E72D38A9D300AF0370 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		189E06F02D38A9D400AF0370 /* LegolasDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				189E06F12D38A9D400AF0370 /* LegolasDemoTests.swift */,
+			);
+			path = LegolasDemoTests;
+			sourceTree = "<group>";
+		};
+		189E06FA2D38A9D400AF0370 /* LegolasDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189E06FB2D38A9D400AF0370 /* LegolasDemoUITests.swift */,
+				189E06FD2D38A9D400AF0370 /* LegolasDemoUITestsLaunchTests.swift */,
+			);
+			path = LegolasDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189E06DC2D38A9D200AF0370 /* LegolasDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E07012D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemo" */;
+			buildPhases = (
+				189E06D92D38A9D200AF0370 /* Sources */,
+				189E06DA2D38A9D200AF0370 /* Frameworks */,
+				189E06DB2D38A9D200AF0370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegolasDemo;
+			productName = LegolasDemo;
+			productReference = 189E06DD2D38A9D200AF0370 /* LegolasDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189E06EC2D38A9D400AF0370 /* LegolasDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E07042D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemoTests" */;
+			buildPhases = (
+				189E06E92D38A9D400AF0370 /* Sources */,
+				189E06EA2D38A9D400AF0370 /* Frameworks */,
+				189E06EB2D38A9D400AF0370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E06EF2D38A9D400AF0370 /* PBXTargetDependency */,
+			);
+			name = LegolasDemoTests;
+			productName = LegolasDemoTests;
+			productReference = 189E06ED2D38A9D400AF0370 /* LegolasDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189E06F62D38A9D400AF0370 /* LegolasDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189E07072D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemoUITests" */;
+			buildPhases = (
+				189E06F32D38A9D400AF0370 /* Sources */,
+				189E06F42D38A9D400AF0370 /* Frameworks */,
+				189E06F52D38A9D400AF0370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189E06F92D38A9D400AF0370 /* PBXTargetDependency */,
+			);
+			name = LegolasDemoUITests;
+			productName = LegolasDemoUITests;
+			productReference = 189E06F72D38A9D400AF0370 /* LegolasDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189E06D52D38A9D200AF0370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					189E06DC2D38A9D200AF0370 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					189E06EC2D38A9D400AF0370 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 189E06DC2D38A9D200AF0370;
+					};
+					189E06F62D38A9D400AF0370 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 189E06DC2D38A9D200AF0370;
+					};
+				};
+			};
+			buildConfigurationList = 189E06D82D38A9D200AF0370 /* Build configuration list for PBXProject "LegolasDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189E06D42D38A9D200AF0370;
+			productRefGroup = 189E06DE2D38A9D200AF0370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189E06DC2D38A9D200AF0370 /* LegolasDemo */,
+				189E06EC2D38A9D400AF0370 /* LegolasDemoTests */,
+				189E06F62D38A9D400AF0370 /* LegolasDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189E06DB2D38A9D200AF0370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E06E82D38A9D300AF0370 /* Preview Assets.xcassets in Resources */,
+				189E06E52D38A9D300AF0370 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06EB2D38A9D400AF0370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06F52D38A9D400AF0370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189E06D92D38A9D200AF0370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E06E32D38A9D200AF0370 /* ContentView.swift in Sources */,
+				189E06E12D38A9D200AF0370 /* LegolasDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06E92D38A9D400AF0370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E06F22D38A9D400AF0370 /* LegolasDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189E06F32D38A9D400AF0370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189E06FC2D38A9D400AF0370 /* LegolasDemoUITests.swift in Sources */,
+				189E06FE2D38A9D400AF0370 /* LegolasDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189E06EF2D38A9D400AF0370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E06DC2D38A9D200AF0370 /* LegolasDemo */;
+			targetProxy = 189E06EE2D38A9D400AF0370 /* PBXContainerItemProxy */;
+		};
+		189E06F92D38A9D400AF0370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189E06DC2D38A9D200AF0370 /* LegolasDemo */;
+			targetProxy = 189E06F82D38A9D400AF0370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		189E06FF2D38A9D400AF0370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		189E07002D38A9D400AF0370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189E07022D38A9D400AF0370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LegolasDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189E07032D38A9D400AF0370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LegolasDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		189E07052D38A9D400AF0370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegolasDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegolasDemo";
+			};
+			name = Debug;
+		};
+		189E07062D38A9D400AF0370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegolasDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegolasDemo";
+			};
+			name = Release;
+		};
+		189E07082D38A9D400AF0370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LegolasDemo;
+			};
+			name = Debug;
+		};
+		189E07092D38A9D400AF0370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLA7S66RP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayuan.LegolasDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LegolasDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189E06D82D38A9D200AF0370 /* Build configuration list for PBXProject "LegolasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E06FF2D38A9D400AF0370 /* Debug */,
+				189E07002D38A9D400AF0370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E07012D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E07022D38A9D400AF0370 /* Debug */,
+				189E07032D38A9D400AF0370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E07042D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E07052D38A9D400AF0370 /* Debug */,
+				189E07062D38A9D400AF0370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189E07072D38A9D400AF0370 /* Build configuration list for PBXNativeTarget "LegolasDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189E07082D38A9D400AF0370 /* Debug */,
+				189E07092D38A9D400AF0370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189E06D52D38A9D200AF0370 /* Project object */;
+}
